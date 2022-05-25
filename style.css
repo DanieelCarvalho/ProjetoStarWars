@@ -374,7 +374,6 @@ main h2 {
         
     }
     header{
-        border: solid;
     
     }
     .main_luke{
@@ -526,7 +525,7 @@ main h2 {
         width: 20px;
         height: 10px;
         position: relative;
-        border: solid red;
+    
     }
 
     .darth_maul {
@@ -542,7 +541,7 @@ main h2 {
         height: 250px;
         left: 220px;
         bottom: 210px;
-        border: solid red;
+    
     }
 
     main {
