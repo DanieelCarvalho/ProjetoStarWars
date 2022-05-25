@@ -15,42 +15,23 @@ header {
     max-width: 1920px;
     width: 100%;
     margin: auto;
+
 }
 
 .header_first {
+    background-image: url(img/star\ uó\ topo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 98.7vw;
     height: 88vh;
-    width: 100%;
+
+
 }
 
-.header_espaço img {
-    width: 100%;
-}
-
-.star {
-    background-image: url("img/star.png");
-    background-repeat: no-repeat;
-    width: 409.8px;
-    height: 118.26px;
-    background-size: 340px;
-    position: relative;
-    top: -275px;
-    right: -231px;
-}
-
-.wars {
-    background-image: url("img/wars.png");
-    background-repeat: no-repeat;
-    width: 409.8px;
-    height: 118.26px;
-    background-size: 340px;
-    position: relative;
-    top: -395px;
-    right: -878px;
-}
-
-.legião {
+..legião {
     background-image: url("img/Grupo\ 4.png");
     background-repeat: no-repeat;
+    background-size: 200px;
     width: 200px;
     height: 200px;
     position: relative;
@@ -59,32 +40,51 @@ header {
 
 }
 
-.header_Kilo_ren {
-    width: 956px;
-    height: 722.7px;
+.header_star_wars {}
+
+.header_star_wars img {
+    width: 17%;
+}
+
+.star {
     position: relative;
-    bottom: 835px;
-    left: 133px;
+    bottom: -320px;
+    left: 360px;
+}
 
+.wars {
+    position: relative;
+    bottom: -310px;
+    left: 640px;
 
+}
+.header_Kilo_ren{
+    position: relative;
+}
+
+.header_Kilo_ren img{
+    width: 70%;
+    position: relative;
+    bottom: 70px;
+    left: 140px;
 }
 
 .header_second {
     background-image: url("img/sta\ uo\ robot.png");
     background-repeat: no-repeat;
-    border: solid;
-    background-size: 500px 1500px ;
-    height: 1462px;
+    background-size: 37vw 225vh;
+    height: 1200px;
     width: 100%;
 }
 
-.teste{
+.teste {
     display: flex;
     width: 98vw;
     height: 85vh;
-    border: solid;
     justify-content: space-between;
+    
 }
+
 .header_second_play {
     background-image: url(img/Grupo\ vermelho.png);
     width: 300px;
@@ -92,29 +92,35 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     position: relative;
     bottom: 30px;
-    left: 190px;
+    left: 170px;
 }
 
 .header_second_play h2 {
     color: white;
-    width: 10vw;
+    width: 12vw;
     height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 400;
-    font-size: 3.285rem;
+    font-weight: 700;
+    font-size: 2.37rem;
+    text-align: center;
 }
 
 .header_second_play p {
     color: white;
     display: flex;
-    width: 20vw;
+    width: 17vw;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-size: 1.478;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+
 }
 
 .header_second_play a {
@@ -122,40 +128,48 @@ header {
     border: 1.5px solid white;
     color: white;
     padding: .75em 1.5em;
-    border-radius: 5px;
-    width: 18vw;
-    height: 12vh;
+    border-radius: 4px;
+    width: 15vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    font-weight: 400;
     transition: all .5s;
-    font-size: 1.76rem;
+    font-size: 0.875rem;
 }
 
 .header_second_play a:hover {
     transform: scale(1.1);
 }
 
-.header_second_sobre{
+.header_second_sobre {
     display: flex;
     align-items: flex-end;
-    width: 50vw;
+    width: 55vw;
     bottom: 264px;
-    left: 600px;
+    left: 700px;
+
 }
-.header_second_sobre img{
-    height: 245px;
+
+.header_second_sobre img {
+    height: 240px;
+    width: 25vw;
 }
 
 .header_second_sobre_texto {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    height: 245px ;
-   
+    height: 245px;
 }
 
 .header_second_sobre h4 {
     display: flex;
-    font-size: 2.3675rem;
+    font-size: 1.37rem;
+    font-weight: 800;
+
 }
 
 .header_second_sobre h3 {
@@ -166,8 +180,9 @@ header {
 
 .header_second_sobre p {
     text-align: right;
-    font-size: 0.70rem;
+    font-size: 0.94rem;
     padding-right: 3px;
+    font-weight: 500;
 
 }
 
@@ -177,7 +192,6 @@ header {
     height: 10vh;
     justify-content: center;
     align-items: flex-end;
-    
 
 }
 
@@ -187,89 +201,384 @@ header {
     width: 60vw;
 
 }
-.header_third{
+
+.header_third {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     height: 127vh;
+
 }
-.header_third_menu{
-    height: 40vh;
-    width: 30vw;
+
+.header_third_menu {
+    height: 262.8px;
+    width: 409.8px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    
+    position: relative;
+    bottom: -200px;
+    left: -400px;
+
 }
-.header_third_menu h1{
-    width: 22vw;
+
+.header_third_menu h1 {
+    width: 300.52px;
     font-size: 3.43rem;
     text-align: right;
-    font-weight:600;
-    line-height:40px;
+    font-weight: 600;
+    line-height: 47px;
     padding-bottom: 25px;
 }
-.header_third_menu ul{
+
+.header_third_menu ul {
     list-style: none;
     font-size: 1.5rem;
     text-align: right;
     font-weight: 400;
-    
-}
-.header_third_menu li{
-    height: 7vh;
-    width: 28vw;
-    text-decoration: none;
-    transition:all .1s;
-}
-.header_third_menu li:hover{
-    background-color: #d74430;
-    color: white;   
-}
-.header_third_menu a{
-    list-style: none;
-    text-decoration: none;
-    color: inherit;
 
-    
 }
-.header_third_menu a:hover{
+
+.header_third_menu li {
+    height: 45.99px;
+    width: 382.48px;
+    text-decoration: none;
+    transition: all .1s;
+}
+
+.header_third_menu li:hover {
     background-color: #d74430;
     color: white;
 }
 
-
-.header_third img{
-    height: 770px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header_third_menu a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
 }
-.darth_maul{
-    background-image: url("img/lord\ sifh\ 2.png");
-    background-repeat: no-repeat;
-    background-size: 500px 800px ;
-    width: 710px;
-    height: 800px;
-    position:relative;
-    display: flex;
-    justify-content: flex-end;
+
+.header_third_menu a:hover {
+    background-color: #d74430;
+    color: white;
+
+}
+
+.header_third_figures {
+    width: 6830px;
+    position: relative;
+}
+
+.rey {
+    position: relative;
+    left: 400px;
+    bottom: -110px;
+    width: 317px;
+    height: 514px;
+}
+
+.darth_maul {
+    position: relative;
     left: 200px;
-    bottom: -60px;
+    bottom: -40px;
+    height: 569px;
+    width: 568px;
 
 }
-.ray{
-   
+
+.ray {
     position: relative;
     top: 100px;
 }
-main{
+
+main {
     background-color: #2D2D2D;
     max-width: 1920px;
     width: 100%;
     margin: auto;
     height: 1000vh;
-    border: solid red;
+
+}
+
+main h2 {
+    color: white;
+    font-size: 2.57rem;
+    font-weight: 800;
+    height: 40vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.luke {
+    width: 40vw;
+    height: 58vh;
+    display: flex;
+    align-items: center;
+    transition: all .5s;
+}
+
+.lukeTeste {
+    border: solid;
+    position: relative;
+    bottom: 50px;
+}
+
+.luke:hover {
+    background-color: #d74430;
+    transform: scale(1.1)
+}
+
+.main_grafico:hover::before {
+    content: ".main_grafico";
+    border-radius: 0 0 20px 20px;
+    color: #E2EFF4;
+    position: absolute;
+    width: 14vw;
+    height: 10vh;
+    animation: slide-top 1.5s ease-in-out 1 normal both;
+    cursor: pointer;
+}
+
+.main_box {
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    justify-content: ;
+    flex-wrap: wrap;
+    width: 47vw;
+
+}
+
+.main_box article {
+    height: 29vh;
+}
+
+.main_box img {
+    width: 23vw;
+    height: 29vh;
+}
+
+@media (max-width:500px) {
+    .header_first {
+        background-size: 100%;
+        width: 100vw; 
+        height: 33vh;
+        
+    }
+    header{
+        border: solid;
+    
+    }
+    .main_luke{
+
+    }
+
+    .header_star_wars img {
+        width: 85px;
+        
+
+    }
+    .header_star_wars{
+        width: 200px;
+    }
+
+    .star {
+        bottom: -120px;
+        left: 125px;
+    
+    }
+
+    .wars {
+        bottom: -116px;
+        left: 219px;
+    }
+    .header_Kilo_ren{
+        position: relative;
+        width: 450px;
+    }
+
+    .header_Kilo_ren img {
+        width: 70%;
+        bottom: 20px;
+        left: 60px;
+        
+    }
+
+    ..legião {
+        background-size: 50px;
+        bottom: 6000px;
+        left: -600px;
+        width: 100px;
+        height: 70px;
+
+    }
+
+    .header_second {
+        background-size: 50vw 160vh;
+        height: 1560px;
+        width: 100vw;
+        
+    }
+
+    .teste {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        height: 1280px;
+        width: 89vw;
+        
+
+    }
+
+    .header_second_play {
+        position: initial;
+        width: 60vw;
+        height: 80vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    .header_second_play h2 {
+        width: 40vw;
+
+    }
+
+    .header_second_play p {
+        text-align: left;
+        width: 47.8vw;
+        height: 9vh;
+
+    }
+
+    .header_second_play a {
+        width: 40vw;
+
+    }
+
+    .header_second_sobre {
+        flex-direction: column-reverse;
+        width: 81vw;
+
+    }
+
+    .header_second_sobre img {
+        width: 61.5vw;
+    }
+
+    .header_second_sobre_texto {
+        width: 90vw;
+        height: 40vh;
+
+    }
+    .header_second_linha{
+        width: 98vw;
+        height: 3vh;
+        align-items: flex-start;
+    }
+    .linha {
+        border: solid;
+        width: 60vh;
+    }
+
+    .header_third {
+        width: 98vw;
+        height: 40vh;
+    
+    }
+
+    .header_third_menu {
+        width: 184px;
+        height: 150px;
+        left: -100px;
+        bottom: -60px;
+    }
+    .header_third_menu nav{
+        
+    }
+
+    .header_third_menu h1 {
+        width: 120px;
+        height: 55px;
+        font-size: 1.25rem;
+        line-height: 5vh;
+    }
+
+    .header_third_menu li {
+        height: 16px;
+        width: 170px;
+    }
+
+    .header_third_menu ul {
+        font-size: 0.625rem;
+
+    }
+
+    .header_third_figures {
+        width: 20px;
+        height: 10px;
+        position: relative;
+        border: solid red;
+    }
+
+    .darth_maul {
+        width: 187px;
+        height: 250px;
+        left: -55px;
+        bottom: -60px;
+
+    }
+
+    .rey {
+        width: 100px;
+        height: 250px;
+        left: 220px;
+        bottom: 210px;
+        border: solid red;
+    }
+
+    main {
+        height: 200vh;
+        
+    }
+
+    main h2 {
+        font-size: 1.3125rem;
+        width: 99vw;
+        height: 25vh;
+        align-items: flex-end;
+    }
+
+    .main_first {
+        width: 99vw;
+        display: flex;
+        flex-direction: column;
+        border: solid;
+    
+    }
+  
+
+    .luke {
+        width: 70vw;
+        height: 33vh;
+    }
+
+    .main_box {
+        flex-direction: column;
+        width: 71vw;
+
+    }
+
+    .main_box img {
+        width: 70vw;
+    }
+
 }
