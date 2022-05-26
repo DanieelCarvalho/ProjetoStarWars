@@ -26,22 +26,8 @@ header {
     background-image: url(img/star\ uó\ topo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 98.7vw;
+    width: 100vw;
     height: 88vh;
-
-
-}
-
-..legião {
-    background-image: url("img/Grupo\ 4.png");
-    background-repeat: no-repeat;
-    background-size: 200px;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    bottom: 1100px;
-    left: 1060px;
-
 }
 
 .header_star_wars {}
@@ -79,12 +65,12 @@ header {
     background-repeat: no-repeat;
     background-size: 37vw 225vh;
     height: 1200px;
-    width: 100%;
+    width: 100vw;
 }
 
 .teste {
     display: flex;
-    width: 98vw;
+    width: 100vw;
     height: 85vh;
     justify-content: space-between;
 
@@ -143,10 +129,16 @@ header {
     font-weight: 400;
     transition: all .5s;
     font-size: 0.875rem;
+    transition-timing-function: ease;
+    transition-duration: .5s;
+    background: #fff linear-gradient(90deg, #d74430 50%, black 50%);
+    background-position: 0% center;
+    background-size: 200%;
+    cursor: pointer;
 }
 
 .header_second_play a:hover {
-    transform: scale(1.1);
+    background-position: 100% center;
 }
 
 .header_second_sobre {
@@ -211,6 +203,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     height: 127vh;
+    width: 100vw;
 
 }
 
@@ -320,7 +313,7 @@ main h2 {
     align-items: center;
     justify-content: center;
     height: 58.1vh;
-
+    width: 98vw;
 
 }
 
@@ -530,7 +523,8 @@ main h2 {
     height: 20px;
     margin-left: 280px;
 }
-.main_second{
+
+.main_second {
     width: 91vw;
     height: 180vh;
     display: flex;
@@ -538,10 +532,12 @@ main h2 {
     align-items: flex-end;
     justify-content: center;
 }
-.main_second img{
+
+.main_second img {
     width: 86vw;
     height: 90vh;
 }
+
 .main_second p {
     color: white;
     font-size: .94rem;
@@ -549,58 +545,68 @@ main h2 {
     display: flex;
     justify-content: flex-end;
 }
-.main_second h2{
+
+.main_second h2 {
     text-transform: uppercase;
     font-size: 2.30rem;
-    font-weight:700;
+    font-weight: 700;
     width: 55vw;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: flex-end;
 }
-.main_third{
+
+.main_third {
     background-color: white;
     width: 98.75vw;
     height: 80vh;
     display: flex;
     align-items: center;
-   
+
+
 }
-.main_third div{
+
+.main_third div {
     height: 40vh;
     width: 34vw;
 
 }
-.main_third figure{
-    width: 40vw;  
+
+.main_third figure {
+    width: 40vw;
 }
-.main_third img{
+
+.main_third img {
     width: 40vw;
     height: 120vh;
     position: relative;
     bottom: 490px;
 }
-.main_third_button{
-    
+
+.main_third_button {
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: ;
     height: 500vh;
 
-    
+
 }
-.main_third_button_h3{
+
+.main_third_button_h3 {
     font-size: 2.57rem;
     font-weight: 100;
     display: flex;
     justify-content: center;
 }
-.main_third_button:hover .main_third_button_h3{
+
+.main_third_button:hover .main_third_button_h3 {
     font-weight: 900;
-    
+
 }
-.main_third_button_a{
+
+.main_third_button_a {
     width: 14vw;
     height: 8vh;
     text-transform: uppercase;
@@ -618,34 +624,38 @@ main h2 {
     background-position: 0% center;
     background-size: 200%;
     cursor: pointer;
-    
+
 }
-.main_third_button:hover .main_third_button_a{
+
+.main_third_button:hover .main_third_button_a {
     background-position: 100% center;
 }
 
 
-.main_third_button_texto{
+.main_third_button_texto {
     font-size: 1rem;
     font-weight: 100;
     height: 8vh;
     width: 14vw;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-    
+
 }
-.main_third_button_texto:first-of-type{
+
+.main_third_button_texto:first-of-type {
     align-items: flex-end;
-    
+
 }
-.main_third_button_bt{
-    border-top: 4px solid ;
+
+.main_third_button_bt {
+    border-top: 4px solid;
     width: 5vw;
 }
-.main_third_button:hover .main_third_button_bt{
-    border-top: 4px solid #d74430 ;
-  
+
+.main_third_button:hover .main_third_button_bt {
+    border-top: 4px solid #d74430;
+
     border-color: 100% center;
 }
 
@@ -654,11 +664,7 @@ main h2 {
         background-size: 100%;
         width: 100vw;
         height: 33vh;
-
     }
-
-    header {}
-
 
     .header_star_wars img {
         width: 85px;
@@ -705,9 +711,7 @@ main h2 {
         align-items: flex-end;
         justify-content: space-evenly;
         height: 1280px;
-        width: 89vw;
-
-
+        width: 100vw;
     }
 
     .header_second_play {
@@ -721,7 +725,7 @@ main h2 {
 
     .header_second_play h2 {
         width: 40vw;
-       
+
 
     }
 
@@ -765,7 +769,7 @@ main h2 {
     }
 
     .header_third {
-        width: 98vw;
+        width: 100vw;
         height: 40vh;
 
     }
@@ -821,7 +825,7 @@ main h2 {
 
     main {
         height: 535vh;
-        width: 99vw;
+
 
     }
 
@@ -833,11 +837,12 @@ main h2 {
     }
 
     .main_first {
-        width: 96vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 200vh;
+
 
 
     }
@@ -946,65 +951,78 @@ main h2 {
     .btn_hover_box {
         width: 80px;
     }
+
     .main_second {
-        width: 99vw;
+        width: 100%;
         height: 160vh;
     }
-    .main_second img{
+
+    .main_second img {
         width: 99vw;
     }
-    .main_second p{
+
+    .main_second p {
         font-size: .77rem;
         justify-content: flex-end;
-        align-items:;
+        align-items: ;
         text-align: right;
         width: 60vw;
-    
+
     }
-    .main_second figcaption{
-        height:20vh;
+
+    .main_second figcaption {
+        height: 20vh;
         font-size: .70rem;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         width: 90vw;
     }
-    .main_second h2{
+
+    .main_second h2 {
         width: 80vw;
         height: 12vh;
         font-size: 1.5rem;
     }
-    .main_third figure{
+
+    .main_third figure {
         bottom: 130px;
         left: -165px;
         width: 70vw;
     }
-    .main_third img{
+
+    .main_third img {
         width: 80vw;
         bottom: 200px;
         left: -260px;
     }
-    .main_third{
+
+    .main_third {
         height: 150vh;
-        width: 99vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
     }
-    .main_third div{
-       width: 80vw;
+
+    .main_third div {
+        width: 80vw;
     }
-    .main_third div:first-of-type{
+
+    .main_third div:first-of-type {
         height: 5vh;
     }
-    .main_third_button_a{
+
+    .main_third_button_a {
         width: 40vw;
         height: 15vh;
     }
-    .main_third_button_texto{
+
+    .main_third_button_texto {
         width: 50vw;
     }
-    .main_third_button_bt{
+
+    .main_third_button_bt {
         width: 15vw;
     }
 
