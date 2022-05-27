@@ -658,12 +658,85 @@ main h2 {
 
     border-color: 100% center;
 }
+footer{
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.footer_first{
+    background-color: #ff5a56;
+    height: 110vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_first h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.94rem;
+    height: 25vh;
+    width: 28vw;
+    display: flex;
+    align-items: center;
+}
+.footer_first p{
+    color: #fff;
+    font-size: 0.94;
+    font-weight: 100;
+    width: 28vw;
+}
+.footer_first_apps{
+    width: 29vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer_first_apps img{
+    width: 13.86vw;
+}
+
+.footer_linha{
+    border-top: solid 3px;
+    width: 28vw;
+    color: #D74430;
+}
+
+.footer_first_logo{
+    width: 29vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+.footer_first_logo img{
+    width: 20vw;
+    height:20vh ;
+}
+.footer_second{
+    height: 100vh;
+    width: 20vw;
+}
+.footer_second img{
+    position: relative;
+    width: 420px;
+    height: 765px;
+    bottom: 100px;
+    left: -100px;
+    
+}
 
 @media (max-width:500px) {
     .header_first {
         background-size: 100%;
-        width: 100vw;
-        height: 33vh;
+        width:100vw;
+        height: 40vh;
+        
+       
+    }
+    header{
+      border: ;
     }
 
     .header_star_wars img {
@@ -702,7 +775,7 @@ main h2 {
     .header_second {
         background-size: 50vw 160vh;
         height: 1560px;
-        width: 100vw;
+        width: 99vw;
 
     }
 
@@ -711,9 +784,9 @@ main h2 {
         align-items: flex-end;
         justify-content: space-evenly;
         height: 1280px;
-        width: 100vw;
+        width: 97vw;
+       
     }
-
     .header_second_play {
         position: initial;
         width: 60vw;
@@ -756,11 +829,18 @@ main h2 {
         height: 40vh;
 
     }
+    .header_second_sobre_texto h3{ 
+        width: 40vw;
+    }
 
     .header_second_linha {
         width: 98vw;
         height: 3vh;
         align-items: flex-start;
+
+    }
+    .header_second_linha{
+        width: 96vw;
     }
 
     .linha {
@@ -769,8 +849,9 @@ main h2 {
     }
 
     .header_third {
-        width: 100vw;
+        width: 98vw;
         height: 40vh;
+       
 
     }
 
@@ -781,7 +862,9 @@ main h2 {
         bottom: -60px;
     }
 
-    .header_third_menu nav {}
+    .header_third_menu nav {
+        
+    }
 
     .header_third_menu h1 {
         width: 120px;
@@ -804,6 +887,7 @@ main h2 {
         width: 20px;
         height: 10px;
         position: relative;
+       
 
     }
 
@@ -825,24 +909,24 @@ main h2 {
 
     main {
         height: 535vh;
-
-
+       
     }
 
     main h2 {
         font-size: 1.3125rem;
-        width: 99vw;
+        width: 94vw;
         height: 25vh;
         align-items: flex-end;
+
     }
 
     .main_first {
-        width: 100%;
+        width: 97vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 200vh;
-
+        
 
 
     }
@@ -955,16 +1039,22 @@ main h2 {
     .main_second {
         width: 100%;
         height: 160vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+       
     }
 
     .main_second img {
-        width: 99vw;
+        width: 100%;
+        
     }
 
     .main_second p {
         font-size: .77rem;
         justify-content: flex-end;
-        align-items: ;
         text-align: right;
         width: 60vw;
 
@@ -994,7 +1084,7 @@ main h2 {
     .main_third img {
         width: 80vw;
         bottom: 200px;
-        left: -260px;
+        left: -210px;
     }
 
     .main_third {
@@ -1011,6 +1101,7 @@ main h2 {
 
     .main_third div:first-of-type {
         height: 5vh;
+        width: 90vw;
     }
 
     .main_third_button_a {
@@ -1024,6 +1115,44 @@ main h2 {
 
     .main_third_button_bt {
         width: 15vw;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .footer_first{
+        width: 99vw;
+        height: 200vh;
+        
+    }
+    .footer_first h2{
+        width: 60vw;
+        font-size: 3.51rem;
+    }
+    .footer_first p{
+        width:60vw;
+    }
+    .footer_first_apps{
+        width: 60vw;
+        height: 20vh;
+        justify-content: space-between;
+    }
+    .footer_first_apps img{
+        width: 29vw;
+        
+    }
+    .footer_linha{
+        width: 60vw;
+    }
+    .footer_first_logo{
+        justify-content: center;
+    }
+    .footer_first_logo img{
+        width: 40vw;
+    }
+    .footer_second img{
+        bottom: 298px;
+        left: 25px;
+        height: 650px;
     }
 
 }
