@@ -25,39 +25,35 @@ header {
 .header_first {
     background-image: url(img/star\ uó\ topo.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
+    background-size: 100%;
+    width: 100%;
     height: 88vh;
 }
 
-.header_star_wars {}
+.header_star_wars {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24vw;
+    padding-left: 1vw;
+    width: 100%;
+    height: 6vw;
+    padding: 0 9.3vw 0 18.6vw;
+    
+}
 
 .header_star_wars img {
-    width: 17%;
-}
-
-.star {
-    position: relative;
-    bottom: -320px;
-    left: 360px;
-}
-
-.wars {
-    position: relative;
-    bottom: -310px;
-    left: 640px;
-
+    width: 25vw;
 }
 
 .header_Kilo_ren {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 10.25%;
 }
 
 .header_Kilo_ren img {
-    width: 70%;
-    position: relative;
-    bottom: 70px;
-    left: 140px;
+    width: 70vw;
+  
 }
 
 .header_second {
@@ -66,6 +62,7 @@ header {
     background-size: 37vw 225vh;
     height: 1200px;
     width: 100vw;
+    
 }
 
 .teste {
@@ -85,8 +82,8 @@ header {
     align-items: center;
     justify-content: space-around;
     position: relative;
-    bottom: 30px;
-    left: 170px;
+    bottom: 5%;
+    left: 15%;
 }
 
 .header_second_play h2 {
@@ -145,8 +142,7 @@ header {
     display: flex;
     align-items: flex-end;
     width: 55vw;
-    bottom: 264px;
-    left: 700px;
+  
 
 }
 
@@ -201,27 +197,27 @@ header {
 
 .header_third {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: ;
     height: 127vh;
     width: 100vw;
+    position: relative;
+ 
 
 }
 
 .header_third_menu {
-    height: 262.8px;
-    width: 409.8px;
+    height: 90vh;
+    width: 35vw;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
-    position: relative;
-    bottom: -200px;
-    left: -400px;
+    position: absolute;
 
 }
 
 .header_third_menu h1 {
-    width: 300.52px;
     font-size: 3.43rem;
     text-align: right;
     font-weight: 600;
@@ -237,9 +233,7 @@ header {
 
 }
 
-.header_third_menu li {
-    height: 45.99px;
-    width: 382.48px;
+.header_third_menu li {    
     text-decoration: none;
     transition: all .1s;
 }
@@ -262,30 +256,26 @@ header {
 }
 
 .header_third_figures {
-    width: 6830px;
+    width: 100%;
     position: relative;
+  
 }
 
 .rey {
-    position: relative;
-    left: 400px;
-    bottom: -110px;
-    width: 317px;
+    position: absolute;
+    left: 70% ;
+    bottom:  25%;
+    width: 20vw;
     height: 514px;
 }
 
 .darth_maul {
-    position: relative;
-    left: 200px;
-    bottom: -40px;
+    position: absolute;
+    left: 10%;
+    bottom: 25%;
     height: 569px;
-    width: 568px;
+    width:45vw;
 
-}
-
-.ray {
-    position: relative;
-    top: 100px;
 }
 
 main {
@@ -320,6 +310,7 @@ main h2 {
 .main_luke {
     width: 40vw;
     height: 58vh;
+    position: relative;
 }
 
 .luke {
@@ -330,17 +321,9 @@ main h2 {
     transition: all .5s;
 }
 
-.lukeTeste {
-    border: solid;
-    position: relative;
-    bottom: 50px;
-}
-
 .main_box {
     display: flex;
-    flex-direction: ;
     align-items: center;
-    justify-content: ;
     flex-wrap: wrap;
     width: 49vw;
     height: 58vh;
@@ -373,22 +356,24 @@ main h2 {
 .p_hover {
     font-size: 1.3rem;
     color: white;
-    margin: 2vh 1vw 6vh 5vw;
+    width: 35vw;
+    margin-left: 5vw ;
+   
 }
 
 .btn_hover {
-    margin: 2px 0 0 190px;
     cursor: pointer;
     text-decoration: none;
     border: 2px solid white;
     color: white;
-    width: 9vw;
+    width: 8vw;
     height: 6vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 0.875rem;
+    margin: 2vh 1vw 6vh 5vw;
 }
 
 .borda2 {
@@ -402,11 +387,10 @@ main h2 {
 }
 
 .efeito {
-    border: solid;
-    width: 546.4px;
-    height: 381.06px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 2040px;
+    bottom: 0%;
     opacity: 0%;
     transition: .1s;
 
@@ -417,64 +401,73 @@ main h2 {
     background-color: #A43D2F;
     transform: scale(1.1)
 }
-
+.main_box_one{
+    position: relative;
+}
 .efeito_box_one {
-    width: 317px;
-    height: 190px;
+    width: 100%;
+    height: 30vh;
+   
     position: absolute;
-    top: 2040px;
+    bottom: 0;
     opacity: 0%;
     transition: .1s;
 }
 
 .efeito_box_one:hover {
     opacity: 50%;
-    background-color: #A43D2F;
+    background-color: #0000CD;
     transform: scale(1.1)
 }
-
+.main_box_two{
+    position: relative;
+}
 .efeito_box_two {
-    width: 317px;
-    height: 190px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 2040px;
+    bottom: 0;
     opacity: 0%;
     transition: .1s;
 }
 
 .efeito_box_two:hover {
     opacity: 50%;
-    background-color: #A43D2F;
+    background-color: #8A2BE2;
     transform: scale(1.1)
 }
-
+.main_box_three{
+    position: relative;
+}
 .efeito_box_three {
-    width: 317px;
-    height: 190px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 2236px;
+    bottom: 0;
     opacity: 0%;
     transition: .1s;
 }
 
 .efeito_box_three:hover {
     opacity: 50%;
-    background-color: #A43D2F;
+    background-color: #006400;
     transform: scale(1.1)
 }
-
+.main_box_four{
+    position: relative;
+}
 .efeito_box_four {
-    width: 317px;
-    height: 190px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 2236px;
+    bottom: 0;
     opacity: 0%;
     transition: .1s;
 }
 
 .efeito_box_four:hover {
     opacity: 50%;
-    background-color: #A43D2F;
+    background-color: #DAA520	;
     transform: scale(1.1)
 }
 
@@ -482,6 +475,7 @@ main h2 {
     font-size: 1rem;
     color: white;
     margin: 9px 0 0px 25px;
+    text-transform: uppercase;
 }
 
 .p_hover_box {
@@ -716,15 +710,24 @@ footer{
 }
 .footer_second{
     height: 100vh;
-    width: 20vw;
+    width: 26vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .footer_second img{
-    position: relative;
-    width: 420px;
-    height: 765px;
-    bottom: 100px;
-    left: -100px;
+    position: absolute;
+    width: 31vw;
+    height: 120%;
+    top: -20%;
+    right: 10%;
     
+}
+.footer_second p{
+    font-size: 0.8125rem;
+    width: 20vw;
 }
 
 @media (max-width:500px) {
@@ -732,32 +735,14 @@ footer{
         background-size: 100%;
         width:100vw;
         height: 40vh;
-        
-       
     }
-    header{
-      border: ;
-    }
-
     .header_star_wars img {
         width: 85px;
-
-
     }
 
     .header_star_wars {
-        width: 200px;
-    }
-
-    .star {
-        bottom: -120px;
-        left: 125px;
-
-    }
-
-    .wars {
-        bottom: -116px;
-        left: 219px;
+        justify-content:space-between;
+        padding: 0 16.8vw 0 25vw;
     }
 
     .header_Kilo_ren {
@@ -765,18 +750,16 @@ footer{
         width: 450px;
     }
 
-    .header_Kilo_ren img {
-        width: 70%;
-        bottom: 20px;
-        left: 60px;
-
+    .header_Kilo_ren {
+        bottom:150px;
+        position: absolute;
+        bottom: 25%;
     }
 
     .header_second {
         background-size: 50vw 160vh;
         height: 1560px;
-        width: 99vw;
-
+        width: 100vw;
     }
 
     .teste {
@@ -850,7 +833,7 @@ footer{
 
     .header_third {
         width: 98vw;
-        height: 40vh;
+        height: 49vh;
        
 
     }
@@ -858,8 +841,7 @@ footer{
     .header_third_menu {
         width: 184px;
         height: 150px;
-        left: -100px;
-        bottom: -60px;
+        bottom: 10%;
     }
 
     .header_third_menu nav {
@@ -884,9 +866,10 @@ footer{
     }
 
     .header_third_figures {
-        width: 20px;
-        height: 10px;
-        position: relative;
+        position: absolute;
+        width: 95vw;
+        height: 49vh;
+        border: solid red;
        
 
     }
@@ -894,16 +877,19 @@ footer{
     .darth_maul {
         width: 187px;
         height: 250px;
-        left: -55px;
-        bottom: -60px;
+        position: absolute;
+        bottom: -9%;
+        
 
     }
 
     .rey {
         width: 100px;
         height: 250px;
-        left: 220px;
-        bottom: 210px;
+        position: absolute;
+        left: 100px;
+        bottom:-10%;
+        left: 70%;
 
     }
 
@@ -955,14 +941,16 @@ footer{
         width: 71vw;
         display: flex;
         justify-content: flex-start;
+        position: relative;
 
     }
 
     .efeito {
-        width: 348px;
-        height: 220px;
-        top: 1890px;
-        right: 100px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+
     }
 
     .borda {
@@ -999,37 +987,43 @@ footer{
         height: 20px;
         margin-left: 280px;
     }
-
-    .efeito_box_one {
-        right: 90px;
-        top: 2100px;
-        width: 348px;
-        height: 220px;
-
+    .main_box_one{
+        position: relative;
 
     }
 
+    .efeito_box_one {
+        position: absolute;
+        top:1%;
+        height: 39vh;
+        border: solid;
+    }
+    .main_box_two{
+        position: relative;
+    }
     .efeito_box_two {
-        right: 90px;
-        top: 2318px;
-        width: 348px;
-        height: 220px;
+        position: absolute;
+        top: 2%;
+        height:39vh ;
 
+    }
+    .main_box_three{
+        position: relative;
     }
 
     .efeito_box_three {
-        right: 85px;
-        top: 2550px;
-        width: 348px;
-        height: 220px;
+        position: absolute;
+        top: 3%;
+        height:39vh ;
+    }
+    .main_box_four{
+        position: relative;
     }
 
     .efeito_box_four {
-        right: 100px;
-        top: 2763px;
-        right: 85px;
-        width: 348px;
-        height: 220px;
+        position: absolute;
+        top:3%;
+        height:39vh
     }
 
     .btn_hover_box {
@@ -1121,7 +1115,8 @@ footer{
     }
     .footer_first{
         width: 99vw;
-        height: 200vh;
+        height: 170vh;
+        border: solid;
         
     }
     .footer_first h2{
@@ -1149,10 +1144,26 @@ footer{
     .footer_first_logo img{
         width: 40vw;
     }
+    .footer_second{
+        position: relative;
+        border: solid;
+        width: 100%;
+        height: 78vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
     .footer_second img{
-        bottom: 298px;
-        left: 25px;
-        height: 650px;
+        position: absolute;
+        top: -40%;
+        right: 25%;
+        width: 65vw;
+        height: 90vh;
+    }
+    .footer_second p{
+        width: 80vw;
+        font-size: 0.8125rem;
     }
 
 }
