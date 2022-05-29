@@ -741,7 +741,7 @@ footer{
     .header_first {
         background-size: 100%;
         width:100vw;
-    
+        height: 40vh;
     }
     .header_star_wars img {
         width: 85px;
@@ -753,13 +753,18 @@ footer{
     }
 
     .header_Kilo_ren {
+        position: relative;
+        width: 450px;
+    }
+
+    .header_Kilo_ren {
         bottom:150px;
         position: absolute;
         bottom: 25%;
     }
 
     .header_second {
-        background-size:contain;
+        background-size: 50vw 160vh;
         height: 1560px;
         width: 100vw;
     }
@@ -871,6 +876,7 @@ footer{
         position: absolute;
         width: 95vw;
         height: 49vh;
+        border: solid red;
        
 
     }
@@ -1081,17 +1087,16 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        justify-content:center;
     }
 
     .main_third div {
         width: 80vw;
-        margin-bottom: 50px;
     }
 
     .stornm_trooper{
+        border: solid;
         position: relative;
-        bottom: 15%;
+        bottom: 30%;
     }
     .stornm_trooper img{
         position: absolute;
@@ -1117,8 +1122,9 @@ footer{
         flex-direction: column;
     }
     .footer_first{
-        width: 100%;
+        width: 99vw;
         height: 170vh;
+        border: solid;
         
     }
     .footer_first h2{
@@ -1148,6 +1154,7 @@ footer{
     }
     .footer_second{
         position: relative;
+        border: solid;
         width: 100%;
         height: 78vh;
         display: flex;
