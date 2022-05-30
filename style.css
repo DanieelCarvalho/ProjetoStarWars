@@ -117,7 +117,7 @@ header {
     
 }
 
-.teste {
+.header_second_play {
     display: flex;
     width: 100vw;
     height: 85vh;
@@ -127,7 +127,7 @@ header {
 
 }
 
-.header_second_play {
+.header_second_play_texto {
     background-image: url(img/Grupo\ vermelho.png);
     width: 22vw;
     height: 89vh;
@@ -140,7 +140,7 @@ header {
     left: 15%;
 }
 
-.header_second_play h2 {
+.header_second_play_texto h2 {
     color: white;
     width: 12vw;
     height: 30vh;
@@ -150,9 +150,10 @@ header {
     font-weight: 700;
     font-size: 2.37rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
-.header_second_play p {
+.header_second_play_texto p {
     color: white;
     display: flex;
     width: 17vw;
@@ -165,7 +166,7 @@ header {
 
 }
 
-.header_second_play a {
+.header_second_play_texto a {
     text-decoration: none;
     border: 1.5px solid white;
     color: white;
@@ -188,7 +189,7 @@ header {
     cursor: pointer;
 }
 
-.header_second_play a:hover {
+.header_second_play_texto a:hover {
     background-position: 100% center;
 }
 
@@ -216,6 +217,7 @@ header {
     display: flex;
     font-size: 1.37rem;
     font-weight: 800;
+    text-transform: uppercase;
 
 }
 
@@ -274,9 +276,11 @@ header {
 .header_third_menu h1 {
     font-size: 3.43rem;
     text-align: right;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 47px;
     padding-bottom: 25px;
+    text-transform: uppercase;
+    width: 21vw;
 }
 
 .header_third_menu ul {
@@ -284,6 +288,7 @@ header {
     font-size: 1.5rem;
     text-align: right;
     font-weight: 400;
+    text-transform: uppercase;
 
 }
 
@@ -350,6 +355,7 @@ main h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-transform: uppercase;
 }
 
 .main_first {
@@ -842,7 +848,7 @@ footer{
         width: 100vw;
     }
 
-    .teste {
+    .header_second_play {
         flex-direction: column;
         align-items: flex-end;
         justify-content: space-evenly;
@@ -851,7 +857,7 @@ footer{
 
        
     }
-    .header_second_play {
+    .header_second_play_texto {
         position: initial;
         width: 60vw;
         height: 80vh;
@@ -860,22 +866,16 @@ footer{
 
     }
 
-    .header_second_play h2 {
+    .header_second_play_texto h2 {
         width: 40vw;
-
-
     }
-
-    .header_second_play p {
+    .header_second_play_texto p {
         width: 44vw;
         line-height: 4vh;
-
         display: flex;
-        
-        
     }
 
-    .header_second_play a {
+    .header_second_play_texto a {
         width: 40vw;
 
     }
@@ -924,12 +924,9 @@ footer{
 
     .header_third_menu {
         width: 184px;
-        height: 150px;
+        height: 190px;
         bottom: 10%;
-    }
 
-    .header_third_menu nav {
-        
     }
 
     .header_third_menu h1 {
@@ -937,6 +934,7 @@ footer{
         height: 55px;
         font-size: 1.25rem;
         line-height: 5vh;
+        text-transform: uppercase;
     }
 
     .header_third_menu li {
@@ -951,9 +949,7 @@ footer{
 
     .header_third_figures {
         position: relative;
-        width: 95vw;
-        height: 49vh;
-       
+        width: 100%;
 
     }
 
@@ -961,8 +957,7 @@ footer{
         width: 187px;
         height: 250px;
         position: absolute;
-        top: 40px;
-        right: 0;
+        top: 15%;
         
     }
 
