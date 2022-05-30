@@ -25,49 +25,55 @@ header {
 .header_first {
     background-image: url(img/star\ uó\ topo.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 43vw;
     position: relative;
 }
-.header_first_legião{
+
+.header_first_legião {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     align-items: flex-end;
-    height:20vh;
+    height: 20vh;
     width: 86vw;
     font-size: 1.5625rem;
     line-height: 1.2;
-    
+
 }
-.header_first_legião_linha{
+
+.header_first_legião_linha {
     border-bottom: 3px solid #000;
     width: 10vw;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.header_first_legião p{
+.header_first_legião p {
     width: 10vw;
     text-transform: uppercase;
 }
-.header_first_legião_number{
+
+.header_first_legião_number {
     width: 82vw;
     display: flex;
     justify-content: flex-end;
     font-size: 0.875rem;
     align-items: center;
 }
-.header_first_legião_number p{
+
+.header_first_legião_number p {
     padding-left: 5px;
 }
-.legião_number{
+
+.legião_number {
     font-size: 1.5rem;
     font-weight: 400;
 
 }
-.legião_button{
+
+.legião_button {
     color: #000;
     width: 1vw;
     height: 2.5vh;
@@ -90,7 +96,7 @@ header {
     width: 100%;
     height: 6vw;
     padding: 0 9.3vw 0 18.6vw;
-    
+
 }
 
 .header_star_wars img {
@@ -105,7 +111,7 @@ header {
 
 .header_Kilo_ren img {
     width: 70vw;
-  
+
 }
 
 .header_second {
@@ -114,7 +120,7 @@ header {
     background-size: contain;
     height: 183vh;
     width: 100vw;
-    
+
 }
 
 .header_second_play {
@@ -197,7 +203,7 @@ header {
     display: flex;
     align-items: flex-end;
     width: 55vw;
-  
+
 
 }
 
@@ -254,11 +260,10 @@ header {
 .header_third {
     display: flex;
     justify-content: center;
-    align-items: ;
     height: 127vh;
     width: 100vw;
     position: relative;
- 
+
 
 }
 
@@ -292,7 +297,7 @@ header {
 
 }
 
-.header_third_menu li {    
+.header_third_menu li {
     text-decoration: none;
     transition: all .1s;
 }
@@ -317,13 +322,13 @@ header {
 .header_third_figures {
     width: 100%;
     position: relative;
-  
+
 }
 
 .rey {
     position: absolute;
-    left: 70% ;
-    bottom:  25%;
+    left: 70%;
+    bottom: 25%;
     width: 20vw;
     height: 514px;
 }
@@ -333,7 +338,7 @@ header {
     left: 10%;
     bottom: 25%;
     height: 569px;
-    width:45vw;
+    width: 45vw;
 
 }
 
@@ -417,8 +422,8 @@ main h2 {
     font-size: 1.3rem;
     color: white;
     width: 35vw;
-    margin-left: 5vw ;
-   
+    margin-left: 5vw;
+
 }
 
 .btn_hover {
@@ -461,13 +466,15 @@ main h2 {
     background-color: #A43D2F;
     transform: scale(1.1)
 }
-.main_box_one{
+
+.main_box_one {
     position: relative;
 }
+
 .efeito_box_one {
     width: 100%;
     height: 30vh;
-   
+
     position: absolute;
     bottom: 0;
     opacity: 0%;
@@ -479,9 +486,11 @@ main h2 {
     background-color: #0000CD;
     transform: scale(1.1)
 }
-.main_box_two{
+
+.main_box_two {
     position: relative;
 }
+
 .efeito_box_two {
     width: 100%;
     height: 100%;
@@ -496,9 +505,11 @@ main h2 {
     background-color: #8A2BE2;
     transform: scale(1.1)
 }
-.main_box_three{
+
+.main_box_three {
     position: relative;
 }
+
 .efeito_box_three {
     width: 100%;
     height: 100%;
@@ -513,9 +524,11 @@ main h2 {
     background-color: #006400;
     transform: scale(1.1)
 }
-.main_box_four{
+
+.main_box_four {
     position: relative;
 }
+
 .efeito_box_four {
     width: 100%;
     height: 100%;
@@ -527,7 +540,7 @@ main h2 {
 
 .efeito_box_four:hover {
     opacity: 50%;
-    background-color: #DAA520	;
+    background-color: #DAA520;
     transform: scale(1.1)
 }
 
@@ -629,18 +642,20 @@ main h2 {
 .main_third figure {
     width: 40vw;
 }
-.stornm_trooper{
+
+.stornm_trooper {
     position: relative;
     width: 100%;
     height: 100%;
 }
+
 .stornm_trooper img {
     width: 40vw;
     height: 120vh;
     position: absolute;
     bottom: 0;
     right: 4%;
-   
+
 }
 
 .main_third_button {
@@ -648,10 +663,7 @@ main h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: ;
     height: 500vh;
-
-
 }
 
 .main_third_button_h3 {
@@ -718,13 +730,15 @@ main h2 {
 
     border-color: 100% center;
 }
-footer{
+
+footer {
     max-width: 1366px;
     width: 100%;
     margin: auto;
     display: flex;
 }
-.footer_first{
+
+.footer_first {
     background-color: #ff5a56;
     height: 110vh;
     width: 65vw;
@@ -732,7 +746,8 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-.footer_first h2{
+
+.footer_first h2 {
     text-transform: uppercase;
     color: white;
     font-size: 1.94rem;
@@ -741,40 +756,45 @@ footer{
     display: flex;
     align-items: center;
 }
-.footer_first p{
+
+.footer_first p {
     color: #fff;
     font-size: 0.94;
     font-weight: 100;
     width: 28vw;
 }
-.footer_first_apps{
+
+.footer_first_apps {
     width: 29vw;
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.footer_first_apps img{
+
+.footer_first_apps img {
     width: 13.86vw;
 }
 
-.footer_linha{
+.footer_linha {
     border-top: solid 3px;
     width: 28vw;
     color: #D74430;
 }
 
-.footer_first_logo{
+.footer_first_logo {
     width: 29vw;
     height: 30vh;
     display: flex;
     align-items: center;
 }
-.footer_first_logo img{
+
+.footer_first_logo img {
     width: 20vw;
-    height:20vh ;
+    height: 20vh;
 }
-.footer_second{
+
+.footer_second {
     height: 100vh;
     width: 26vw;
     position: relative;
@@ -783,15 +803,17 @@ footer{
     justify-content: flex-end;
     align-items: flex-end;
 }
-.footer_second img{
+
+.footer_second img {
     position: absolute;
     width: 31vw;
     height: 120%;
     top: -20%;
     right: 10%;
-    
+
 }
-.footer_second p{
+
+.footer_second p {
     font-size: 0.8125rem;
     width: 20vw;
 }
@@ -799,51 +821,57 @@ footer{
 @media (max-width:500px) {
     .header_first {
         background-size: 100%;
-        width:100vw;
-    
+        width: 100vw;
+
     }
-    .header_first_legião{
+
+    .header_first_legião {
         font-size: 0.7rem;
         width: 95vw;
         height: 13vh;
-        
+
     }
-    .header_first_legião_linha{
+
+    .header_first_legião_linha {
         width: 16vw;
     }
-    .header_first_legião p{
+
+    .header_first_legião p {
         width: 16vw;
-        display: flex;
     }
-    .header_first_legião_number{
+
+    .header_first_legião_number {
         width: 90vw;
         font-size: 0.60rem;
-      
+
     }
-    .legião_button{
+
+    .legião_button {
         width: 1.5vw;
         height: 2vh;
     }
-    .legião_number{
-        font-size: 0.70rem ;
+
+    .legião_number {
+        font-size: 0.70rem;
     }
+
     .header_star_wars img {
         width: 85px;
     }
 
     .header_star_wars {
-        justify-content:space-between;
+        justify-content: space-between;
         padding: 0 16.8vw 0 25vw;
     }
 
     .header_Kilo_ren {
-        bottom:150px;
+        bottom: 150px;
         position: absolute;
         bottom: 25%;
     }
 
     .header_second {
-        background-size:contain;
+        background-size: contain;
         height: 245vh;
         width: 100vw;
     }
@@ -855,8 +883,9 @@ footer{
         height: 195vh;
         width: 97vw;
 
-       
+
     }
+
     .header_second_play_texto {
         position: initial;
         width: 60vw;
@@ -869,6 +898,7 @@ footer{
     .header_second_play_texto h2 {
         width: 40vw;
     }
+
     .header_second_play_texto p {
         width: 44vw;
         line-height: 4vh;
@@ -895,7 +925,8 @@ footer{
         height: 40vh;
 
     }
-    .header_second_sobre_texto h3{ 
+
+    .header_second_sobre_texto h3 {
         width: 40vw;
     }
 
@@ -905,7 +936,8 @@ footer{
         align-items: flex-start;
 
     }
-    .header_second_linha{
+
+    .header_second_linha {
         width: 96vw;
     }
 
@@ -917,9 +949,6 @@ footer{
     .header_third {
         width: 98vw;
         height: 49vh;
-        border: ;
-       
-
     }
 
     .header_third_menu {
@@ -958,7 +987,7 @@ footer{
         height: 250px;
         position: absolute;
         top: 15%;
-        
+
     }
 
     .rey {
@@ -972,7 +1001,7 @@ footer{
 
     main {
         height: 535vh;
-       
+
     }
 
     main h2 {
@@ -989,7 +1018,7 @@ footer{
         flex-direction: column;
         align-items: center;
         height: 200vh;
-        
+
 
 
     }
@@ -1064,43 +1093,48 @@ footer{
         height: 20px;
         margin-left: 280px;
     }
-    .main_box_one{
+
+    .main_box_one {
         position: relative;
 
     }
 
     .efeito_box_one {
         position: absolute;
-        top:1%;
+        top: 1%;
         height: 39vh;
         border: solid;
     }
-    .main_box_two{
+
+    .main_box_two {
         position: relative;
     }
+
     .efeito_box_two {
         position: absolute;
         top: 2%;
-        height:39vh ;
+        height: 39vh;
 
     }
-    .main_box_three{
+
+    .main_box_three {
         position: relative;
     }
 
     .efeito_box_three {
         position: absolute;
         top: 3%;
-        height:39vh ;
+        height: 39vh;
     }
-    .main_box_four{
+
+    .main_box_four {
         position: relative;
     }
 
     .efeito_box_four {
         position: absolute;
-        top:3%;
-        height:39vh
+        top: 3%;
+        height: 39vh
     }
 
     .btn_hover_box {
@@ -1114,13 +1148,13 @@ footer{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        
-       
+
+
     }
 
     .main_second img {
         width: 100%;
-        
+
     }
 
     .main_second p {
@@ -1151,13 +1185,14 @@ footer{
         left: -165px;
         width: 70vw;
     }
+
     .main_third {
         height: 150vh;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        justify-content:center;
+        justify-content: center;
     }
 
     .main_third div {
@@ -1165,11 +1200,12 @@ footer{
         margin-bottom: 50px;
     }
 
-    .stornm_trooper{
+    .stornm_trooper {
         position: relative;
         bottom: 15%;
     }
-    .stornm_trooper img{
+
+    .stornm_trooper img {
         position: absolute;
         right: 73%;
         top: 65%;
@@ -1189,40 +1225,50 @@ footer{
     .main_third_button_bt {
         width: 15vw;
     }
-    footer{
+
+    footer {
         flex-direction: column;
     }
-    .footer_first{
+
+    .footer_first {
         width: 100%;
         height: 170vh;
-        
+
     }
-    .footer_first h2{
+
+    .footer_first h2 {
         width: 60vw;
         font-size: 3.51rem;
     }
-    .footer_first p{
-        width:60vw;
+
+    .footer_first p {
+        width: 60vw;
     }
-    .footer_first_apps{
+
+    .footer_first_apps {
         width: 60vw;
         height: 20vh;
         justify-content: space-between;
     }
-    .footer_first_apps img{
+
+    .footer_first_apps img {
         width: 29vw;
-        
+
     }
-    .footer_linha{
+
+    .footer_linha {
         width: 60vw;
     }
-    .footer_first_logo{
+
+    .footer_first_logo {
         justify-content: center;
     }
-    .footer_first_logo img{
+
+    .footer_first_logo img {
         width: 40vw;
     }
-    .footer_second{
+
+    .footer_second {
         position: relative;
         width: 100%;
         height: 78vh;
@@ -1232,14 +1278,16 @@ footer{
         align-items: center;
 
     }
-    .footer_second img{
+
+    .footer_second img {
         position: absolute;
         top: -210px;
         right: 110px;
         width: 65vw;
         height: 90vh;
     }
-    .footer_second p{
+
+    .footer_second p {
         width: 80vw;
         font-size: 0.8125rem;
         margin-bottom: 10px;
