@@ -678,14 +678,15 @@ main h2 {
     height: 200vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     background-color: #2D2D2D;
     
 }
 
 .main_second img {
-    width: 100vw;
+    width: 88vw;
+    padding-right: 20px;
 }
 
 .main_second p {
@@ -694,6 +695,7 @@ main h2 {
     text-align: center;
     display: flex;
     justify-content: flex-end;
+    padding-right: 20px;
 }
 
 .main_second h2 {
@@ -703,6 +705,7 @@ main h2 {
     width: 55vw;
     height: 30vh;
     display: flex;
+    padding-top:200px;
     justify-content: flex-end;
     align-items: center;
 }
@@ -1231,6 +1234,8 @@ footer {
 
     .main_second img {
         width: 100%;
+        padding: 0;
+        border: solid;
 
     }
 
@@ -1239,6 +1244,7 @@ footer {
         justify-content: flex-end;
         text-align: right;
         width: 60vw;
+        padding: 0;
 
     }
 
@@ -1255,6 +1261,7 @@ footer {
         width: 80vw;
         height: 12vh;
         font-size: 1.5rem;
+        padding: 0;
     }
 
     .main_third figure {
@@ -1360,8 +1367,8 @@ footer {
 
     .footer_second img {
         position: absolute;
-        top: -210px;
-        right: 110px;
+        left: 20%;
+        bottom: 40%;
         width: 65vw;
         height: 90vh;
     }
